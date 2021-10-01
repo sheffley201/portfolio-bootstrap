@@ -12,6 +12,13 @@ body {
     width: 100%;
 }
 
+.logo {
+    width: 30px;
+    height: 30px;
+    filter: invert(98%) sepia(0%) saturate(445%) hue-rotate(143deg)
+    brightness(84%) contrast(77%);
+}
+
 a:hover {
     cursor: pointer;
 }
