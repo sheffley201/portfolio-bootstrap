@@ -24,12 +24,12 @@
     <div class="offcanvas offcanvas-start" id="dag-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">DOM Adventure Game</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/dag-banner.png" alt="picture of my dom adventure game">
             <p>My first project practicing with manipulating the Document Object Model in JavaScript. All elements were created in JavaScript instead of initializing them in the HTML. The text content and styling to hide buttons takes care of the rest. Click and key press event listeners are used throughout.</p>
-            <button class="btn btn-secondary" type="button">See it in action!</button>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#dag-modal">See it in action!</button>
         </div>
     </div>
 
@@ -37,12 +37,12 @@
     <div class="offcanvas offcanvas-start" id="ttt-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">Tic-Tac-Toe</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/ttt-banner.png" alt="picture of my Tic-Tac-Toe game">
             <p>An (almost) fully featured tic-tac-toe game. 3 game modes, 1 player against a (for now) basic Computer Player, two human players (or play against yourself if that's what you're into), and lastly a CPU v CPU mode where you can watch two CPU players battle it out. Made in HTML, CSS and JavaScript.</p>
-            <button class="btn btn-secondary" type="button">See it in action!</button>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#ttt-modal">See it in action!</button>
         </div>
     </div>
 
@@ -50,12 +50,12 @@
     <div class="offcanvas offcanvas-start" id="square-hunt-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">Square Hunt</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/squarehunt-banner.png" alt="picture of my square hunt game">
             <p>A spoof of the Retro Game "Duck Hunt" This is a game I made in High School while I was learning Java. Different modes of difficulty, two squares to shoot down, and 5 shots. Plus the dog (brown rectangle) pops up after the squares are shot or fly away. This is the first program I made that I was truly proud of, and paved the way for my love for programming</p>
-            <button class="btn btn-secondary" type="button">See it in action!</button>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#squarehunt-modal">See it in action!</button>
         </div>
     </div>
 
@@ -63,12 +63,12 @@
     <div class="offcanvas offcanvas-start" id="snake-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">Snake</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/snake-banner.png" alt="picture of my snake game">
             <p>The classic game of Snake. A game a parter and I developed for the final project of our first semester of college. Developed using HTML, CSS, and JavaScript. As well as making use of a Centralized Git Workflow to collaborate.</p>
-            <button class="btn btn-secondary" type="button">See it in action!</button>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#snake-modal">See it in action!</button>
         </div>
     </div>
 
@@ -76,25 +76,142 @@
     <div class="offcanvas offcanvas-start" id="rgc-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">Retro Games Collection</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/rgc-banner.png" alt="picture of our retro games collection website" />
             <p>This project I developed with 3 other students in my class. It consists of 4 classic games, each one saves the global high score in a database. In order to play, you need to create an account that is also stored in the database. I took on 3 of the games and the high score page, while my partners worked on the last game, the home page, and the back-end parts.</p>
-            <button class="btn btn-secondary" type="button">See it in action!</button>
+            <form action="https://retro-game-collection.herokuapp.com/">
+                <button class="btn btn-secondary" type="submit" action='https://retro-game-collection.herokuapp.com/'>See it in action!</button>
+            </form>
         </div>
     </div>
 
-    <!--Portfolio Website-->
+    <!--Portfolio Website Sidebar-->
     <div class="offcanvas offcanvas-start" id="portfolio-sidebar">
         <div class="offcanvas-header">
             <h1 class="offcanvas-title">Portfolio Website</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
             <img class='banner' src="assets/portfolio-banner.png" alt="picture of portfolio website" />
             <p>The website you are on right now is a bootstrap recreation of my old portfolio website I made for a project in my first year of college. This website was made from scratch using HTML, CSS, and JavaScript, and was a lot of fun to build. This is where I really discovered my passion for front-end web development.</p>
-            <button class="btn btn-secondary" type="button">Visit site</button>
+            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#portfolio-modal">Visit site</button>
+        </div>
+    </div>
+
+    <!--DOM Adventure Game Modal-->
+    <div class="modal fade" id="dag-modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">DOM Adventure Game</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe src="https://sheffley201.github.io/dom-adventure-game/" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tic-Tac-Toe Modal-->
+    <div class="modal fade" id="ttt-modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Tic-Tac-Toe</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe src="https://sheffley201.github.io/personal-ttt/" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Square Hunt Modal-->
+    <div class="modal fade" id="squarehunt-modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Square Hunt</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <video src="assets/sh-video.mov" autoplay loop></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snake Modal-->
+    <div class="modal fade" id="snake-modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Snake</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe src="https://sheffley201.github.io/snake/" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Does not seem to work with iframe-->
+    <!--Retro Games Collection Modal-->
+    <div class="modal fade" id="rgc-modal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Retro Games Collecion</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe src="https://retro-game-collection.herokuapp.com/" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio Website Modal-->
+    <div class="modal fade" id="portfolio-modal">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Portfolio Website</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe src="https://sheffley201.github.io" frameborder="0"></iframe>
+                </div>
+            </div>
         </div>
     </div>
 
