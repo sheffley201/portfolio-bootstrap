@@ -54,5 +54,5 @@ iframe {
 video {
     max-height: 90vh;
     max-width: 90vw;
-    align-self: center;
+    margin: 0 auto;
 }

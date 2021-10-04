@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <!--My styling and JS-->
     <link rel="stylesheet" href="styles.css" />
     <script src='main.js'></script>
     <title>Spencer Heffley</title>
@@ -68,7 +69,7 @@
         <div class="offcanvas-body">
             <img class='banner' src="assets/snake-banner.png" alt="picture of my snake game">
             <p>The classic game of Snake. A game a parter and I developed for the final project of our first semester of college. Developed using HTML, CSS, and JavaScript. As well as making use of a Centralized Git Workflow to collaborate.</p>
-            <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#snake-modal">See it in action!</button>
+            <button class="btn btn-secondary snake-open" type="button" data-bs-toggle="modal" data-bs-target="#snake-modal">See it in action!</button>
         </div>
     </div>
 
@@ -170,7 +171,7 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <iframe src="https://sheffley201.github.io/snake/" frameborder="0"></iframe>
+                    <iframe class='snake-iframe' src="https://sheffley201.github.io/snake/" frameborder="0"></iframe>
                 </div>
             </div>
         </div>
@@ -204,12 +205,12 @@
             <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">Portfolio Website</h4>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    <button type="button" class="btn-close portfolio-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <iframe src="https://sheffley201.github.io" frameborder="0"></iframe>
+                    <iframe class='portfolio-iframe' src='https://sheffley201.github.io' frameborder="0"></iframe>
                 </div>
             </div>
         </div>
