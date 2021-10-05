@@ -1,6 +1,22 @@
 body {
-    background-color: #444;
-    color: whitesmoke;
+    background-color: #EBEBEB;
+    color: #042A2B;
+}
+
+.navbar {
+    background-color: #042A2B;
+}
+
+.nav-link {
+    color: #EBEBEB;
+}
+
+.nav-link:focus, .nav-link:hover, .nav-link:active {
+    color: white;
+}
+
+h1, h2 {
+    color: #A22C29;
 }
 
 .thumbnail {
@@ -30,8 +46,7 @@ body {
 .logo {
     width: 30px;
     height: 30px;
-    filter: invert(98%) sepia(0%) saturate(445%) hue-rotate(143deg)
-    brightness(84%) contrast(77%);
+    filter: invert(99%) sepia(0%) saturate(2674%) hue-rotate(236deg) brightness(114%) contrast(84%);
 }
 
 a:hover {
@@ -39,11 +54,11 @@ a:hover {
 }
 
 .offcanvas {
-    background-color: #333;
+    background-color: #88D498;
 }
 
 .modal-content {
-    background-color: #333;
+    background-color: #88D498;
 }
 
 iframe {
