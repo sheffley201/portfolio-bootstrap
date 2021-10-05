@@ -54,11 +54,15 @@ a:hover {
 }
 
 .offcanvas {
-    background-color: #88D498;
+    background-color: #EBEBEB;
 }
 
 .modal-content {
-    background-color: #88D498;
+    background-color: #EBEBEB;
+}
+
+.btn-close {
+    filter: invert(13%) sepia(51%) saturate(623%) hue-rotate(133deg) brightness(94%) contrast(101%);
 }
 
 iframe {
